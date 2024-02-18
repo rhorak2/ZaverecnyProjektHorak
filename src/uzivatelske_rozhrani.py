@@ -3,7 +3,7 @@ from evidence_pojistencu import EvidencePojistencu
 
 pojistene_osoby = EvidencePojistencu()
 # Vytvoření instance pojistene_osoby třídy EvidencePojistencu
-volba = 0;
+volba = 0
 
 while volba != 4:
     # Cyklus pro zadání volby uživatele. Cyklus končí po zadání volby 4.
