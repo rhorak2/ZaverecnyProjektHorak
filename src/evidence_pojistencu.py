@@ -50,5 +50,8 @@ class EvidencePojistencu:
                 print(f"Příjmení: {pojisteny.prijmeni}")
                 print(f"Věk: {pojisteny.vek}")
                 print(f"Telefon: {pojisteny.telefon}")
-            else:
-                print(f"Pojištěný {jmeno} {prijmeni} nebyl nalezen.")
+                return
+
+        print(f"Pojištěný {jmeno} {prijmeni} nebyl nalezen.")
+
+
