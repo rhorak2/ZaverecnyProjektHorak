@@ -52,6 +52,6 @@ class EvidencePojistencu:
                 print(f"Telefon: {pojisteny.telefon}")
                 return
 
-        print(f"Pojištěný {jmeno} {prijmeni} nebyl nalezen.")
+        print(f"Pojištěný {jmeno} {prijmeni} nebyl nalezen")
 
 
