@@ -53,7 +53,6 @@ class EvidencePojistencu:
                 print(f"Telefon: {pojisteny.telefon}")
                 return True
 
-
         print(f"Pojištěný {jmeno} {prijmeni} nebyl nalezen")
 
 
