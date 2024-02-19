@@ -42,7 +42,7 @@ class EvidencePojistencu:
         :param jmeno: křestní jméno pojištence
         :param prijmeni: příjmení pojištence
         """
-        nalezen = False
+        #nalezen = False
         for pojisteny in self.pojisteni:
             # for cyklus pro procházení seznamu pojištěných
             if pojisteny.jmeno.lower() == jmeno.lower() and pojisteny.prijmeni.lower() == prijmeni.lower():
@@ -51,10 +51,9 @@ class EvidencePojistencu:
                 print(f"Příjmení: {pojisteny.prijmeni}")
                 print(f"Věk: {pojisteny.vek}")
                 print(f"Telefon: {pojisteny.telefon}")
-                nalezen = True
-                break
+                return True
 
-        if not nalezen:
-            print(f"Pojištěný {jmeno} {prijmeni} nebyl nalezen")
+
+        print(f"Pojištěný {jmeno} {prijmeni} nebyl nalezen")
 
 
